@@ -4,6 +4,7 @@
 // @version      1.0.1
 // @description  This is a test user script
 // @author       NoEul
+// @match        http*://*
 // @grant        none
 // ==/UserScript==
 
