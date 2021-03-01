@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       You
 // @downloadURL  https://raw.githubusercontent.com/N0Eul/scripts/master/test.js
+// @updateURL    https://raw.githubusercontent.com/N0Eul/scripts/master/test.js
 // @match        http*://*/*
 // @grant        none
 // ==/UserScript==
