@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         TEst
+// @name         Test
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @downloadURL  https://github.com/N0Eul/scripts/raw/master/test.js
+// @version      1.0.0
+// @description  This is a test user script
+// @author       NoEul
 // @match        http*://*/*
+// @downloadURL  https://github.com/N0Eul/scripts/raw/master/test.js
 // @grant        none
 // ==/UserScript==
 
