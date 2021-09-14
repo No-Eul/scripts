@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         [Discord] Disable Reply Mention Automatically
 // @namespace    Discord UserScript
-// @version      1.0.0
+// @version      1.0.1
 // @description  Disable reply mention automatically in your discord!
 // @author       NoEul
-// @supportURL   https://github.com/N0Eul/scripts/issues
-// @downloadURL  https://github.com/N0Eul/scripts/raw/master/discord/AutoDisableReplyMention.user.js
+// @supportURL   https://github.com/No-Eul/scripts/issues
+// @downloadURL  https://github.com/No-Eul/scripts/raw/master/discord/AutoDisableReplyMention.user.js
 // @match        http*://discord.com/*
 // @grant        none
 // ==/UserScript==
