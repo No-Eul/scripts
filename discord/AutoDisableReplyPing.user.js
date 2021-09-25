@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         [Discord] Disable Reply Mention Automatically
+// @name         [Discord] Disable Reply Ping Automatically
 // @namespace    Discord UserScript
 // @version      1.0.1
-// @description  Disable reply mention automatically in your discord!
+// @description  Disable reply ping automatically in your discord!
 // @author       NoEul
 // @supportURL   https://github.com/No-Eul/scripts/issues
-// @downloadURL  https://github.com/No-Eul/scripts/raw/master/discord/AutoDisableReplyMention.user.js
-// @match        http*://discord.com/*
+// @downloadURL  https://github.com/No-Eul/scripts/raw/master/discord/AutoDisableReplyPing.user.js
+// @match        *://discord.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -17,8 +17,8 @@ new (function() {
 				this.observer.disconnect(); // disconnect it.
 			else { // If it wasn't,
 				this.observer = new MutationObserver(() => { // Create new instance to detect insertion of the reply box.
-					let $ = document.querySelector('div[class*="mentionButton"]'); // Get mention switch in reply box.
-					if ($ !== null) $.click(); // Click if it's not null. Then reply mention will be disable.
+					let $ = document.querySelector('div[class*="mentionButton"]'); // Get ping switch in reply box.
+					if ($ !== null) $.click(); // Click if it's not null. Then reply ping will be disable.
 				});
 			}
 
