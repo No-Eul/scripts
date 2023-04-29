@@ -2,7 +2,7 @@
 // @name            [Newspic] CoupangPartnersBlocker
 // @name:ko         [뉴스픽] 쿠팡 파트너스 배너 제거기
 // @namespace       https://github.com/No-Eul
-// @version         1.0.1
+// @version         1.0.2
 // @description     Don't go to the Coupang website on a Newspic post, just view it!
 // @description:ko  쿠팡 파트너스로 등록된 게시물을 쿠팡 사이트 접속 없이 볼 수 있게 합니다.
 // @author          NoEul
