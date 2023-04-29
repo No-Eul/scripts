@@ -1,17 +1,19 @@
 // ==UserScript==
-// @name         CoupangPartnersBlocker
-// @namespace    https://github.com/No-Eul
-// @version      1.0.0
-// @description  쿠팡 파트너스로 등록된 게시물을 쿠팡 사이트 접속 없이 볼 수 있게 합니다.
-// @author       NoEul
-// @license      MIT License
-// @source       https://github.com/No-Eul/scripts
-// @supportURL   https://github.com/No-Eul/scripts/issues
-// @updateURL    https://github.com/No-Eul/scripts/raw/master/discord/newspic/CoupangPartnersBlocker.user.js
-// @downloadURL  https://github.com/No-Eul/scripts/raw/master/discord/newspic/CoupangPartnersBlocker.user.js
-// @match        *://m.newspic.kr/*
-// @match        *://newspic.kr/*
-// @icon         http://newspic.kr/favicon.ico
+// @name               [Newspic] CoupangPartnersBlocker
+// @name:ko-kr         [뉴스픽] 쿠팡 파트너스 배너 제거기
+// @namespace          https://github.com/No-Eul
+// @version            1.0.1
+// @description        Don't go to the Coupang website on a Newspic post, just view it!
+// @description:ko-kr  쿠팡 파트너스로 등록된 게시물을 쿠팡 사이트 접속 없이 볼 수 있게 합니다.
+// @author             NoEul
+// @license            MIT License
+// @source             https://github.com/No-Eul/scripts
+// @supportURL         https://github.com/No-Eul/scripts/issues
+// @updateURL          https://github.com/No-Eul/scripts/raw/master/discord/newspic/CoupangPartnersBlocker.user.js
+// @downloadURL        https://github.com/No-Eul/scripts/raw/master/discord/newspic/CoupangPartnersBlocker.user.js
+// @match              *://m.newspic.kr/*
+// @match              *://newspic.kr/*
+// @icon               http://newspic.kr/favicon.ico
 // ==/UserScript==
 
 /*
