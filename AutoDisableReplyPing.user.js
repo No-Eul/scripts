@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         [Discord] Disable Reply Ping Automatically
-// @namespace    Discord UserScript
-// @version      1.0.1
+// @namespace    https://github.com/No-Eul
+// @version      1.0.2
 // @description  Disable reply ping automatically in your discord!
 // @author       NoEul
+// @license      MIT License - https://github.com/No-Eul/scripts/raw/master/LICENSE.txt
+// @source       https://github.com/No-Eul/scripts
 // @supportURL   https://github.com/No-Eul/scripts/issues
-// @downloadURL  https://github.com/No-Eul/scripts/raw/master/discord/AutoDisableReplyPing.user.js
+// @updateURL    https://github.com/No-Eul/scripts/raw/Discord/AutoDisableReplyPing.user.js
+// @downloadURL  https://github.com/No-Eul/scripts/raw/Discord/AutoDisableReplyPing.user.js
 // @match        *://discord.com/*
 // @grant        none
 // ==/UserScript==
