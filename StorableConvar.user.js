@@ -47,7 +47,7 @@ function modifyStoringConvar() {
 
 	let execute = unsafeWindow.input.execute;
 	unsafeWindow.input.execute = function (command) {
-		let pair = command.split(/\s+/g, 2);
+		let pair = command.split(/\s+/g);
 		if (unsafeWindow.input.get_convar(pair[0]))
 			GM_setValue(pair[0], pair[1]);
 		execute.apply(unsafeWindow.input, arguments);
