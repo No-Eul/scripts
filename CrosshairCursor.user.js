@@ -18,7 +18,7 @@
 	canvas.style.setProperty("cursor", "crosshair");
 	let observer = new MutationObserver(mutations => {
 		if (canvas.style.getPropertyValue("cursor") === "default")
-			canvas.style.setProperty("cursor", "crosshair")
+			canvas.style.setProperty("cursor", "crosshair");
 	});
 	observer.observe(canvas, {attributes: true, attributeFilter: ["style"]});
-}();
+})();
