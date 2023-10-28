@@ -25,8 +25,8 @@ new (function() {
 				});
 			}
 
-			if (document.querySelector('div[class|="channelTextArea"]') !== null) // If the chat box exist,
-				this.observer.observe(document.querySelector('div[class|="channelTextArea"]'), { childList: true });
+			if (document.querySelector('div[class*="channelTextArea"]') !== null) // If the chat box exist,
+				this.observer.observe(document.querySelector('div[class*="channelTextArea"]'), { childList: true });
 			// Observe that reply box was created above the chat box.
 
 			this.__currentUrl__ = location.href; // Then cache current url.
