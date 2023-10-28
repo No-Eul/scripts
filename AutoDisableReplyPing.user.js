@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [Discord] Disable Reply Ping Automatically
 // @namespace    https://github.com/No-Eul
-// @version      1.0.2
+// @version      1.0.3
 // @description  Disable reply ping automatically in your discord!
 // @author       NoEul
 // @license      MIT License - https://github.com/No-Eul/scripts/raw/master/LICENSE.txt
